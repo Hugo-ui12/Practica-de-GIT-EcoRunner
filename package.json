@@ -1,0 +1,30 @@
+{
+  "name": "practica-de-git-ecorunner-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check:html": "html-validate \"**/*.html\"",
+    "check:css": "stylelint \"**/*.css\"",
+    "check:js": "eslint \"**/*.js\"",
+    "check": "npm run check:html && npm run check:css && npm run check:js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hugo-ui12/Practica-de-GIT-EcoRunner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Hugo-ui12/Practica-de-GIT-EcoRunner/issues"
+  },
+  "homepage": "https://github.com/Hugo-ui12/Practica-de-GIT-EcoRunner#readme",
+  "devDependencies": {
+    "eslint": "^10.11.0",
+    "html-validate": "^11.16.1",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}
